@@ -15,4 +15,10 @@ public class CompleteCalc extends Calculator{
             return -1;
         }
     }
+
+    // default method를 재정의 할 수 있다.
+    @Override
+    public void description() {
+        System.out.println("재정의한 묘사.");
+    }
 }
